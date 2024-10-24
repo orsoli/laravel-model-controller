@@ -15,7 +15,7 @@
                             <h5 class="card-title">{{$movie["original_title"]}}</h5>
                             <p class="card-text">{{$movie["nationality"]}}</p>
                             <p class="card-text">{{$movie["vote"]}}</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="{{route('show-movie', $movie['id'])}}" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
