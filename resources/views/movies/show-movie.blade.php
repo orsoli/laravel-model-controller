@@ -15,7 +15,7 @@
                 <p class="card-text"> {{$movie["vote"]}} </p>
                 <p class="card-text"><small class="text-body-secondary">Last updated: {{$movie["date"]}}</small></p>
             </div>
-            <img src="..." class="card-img-top" alt="...">
+            <img src="{{$movie["img_url"]}}" class="card-img-top object-fit-cover" alt="{{$movie["title"]}}" height="600px">
         </div>
     </div>
 @endsection
