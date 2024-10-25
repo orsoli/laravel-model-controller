@@ -19,12 +19,12 @@
         @include('partials.header')
 
         {{-- Main  --}}
-        <main>
+        <main class="bg-black text-light">
             @yield('main-content')
         </main>
 
-        {{-- Footer  --}}
-        @include('partials.footer')
+        {{-- Footer
+        @include('partials.footer') --}}
 
         {{-- Integrate app.js  --}}
         @vite("resources/js/app.js")
